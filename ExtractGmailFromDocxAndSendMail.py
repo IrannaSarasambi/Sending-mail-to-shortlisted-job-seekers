@@ -40,7 +40,7 @@ for f in files:
 
 
 for gmail in Allgmail:
-    receiver_address = 'irannass@gmail.com'
+    receiver_address = gmail
     #Setup the MIME
     message = MIMEMultipart()
     message['From'] = sender_address
